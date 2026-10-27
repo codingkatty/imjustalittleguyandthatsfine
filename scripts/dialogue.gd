@@ -13,9 +13,9 @@ var f_done = false
 var dad = false
 @export var f_scene = false
 
-var door = preload("res://scenes/door.tscn")
-var car = preload("res://scenes/car.tscn")
-var sketch = preload("res://scenes/sketchbook.tscn")
+var door = load("res://scenes/door.tscn")
+var car = load("res://scenes/car.tscn")
+var sketch = load("res://scenes/sketchbook.tscn")
 
 @export var type_speed: float = 0.05 
 var type_timer: float = 0.0
